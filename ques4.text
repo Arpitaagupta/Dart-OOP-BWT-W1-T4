@@ -1,0 +1,38 @@
+Ques-4
+
+Create a generic class with a type parameter that simulates drawing an item at random out
+of a box. This class could be used for simulating a random drawing. For example, the box
+might contain Strings representing names written on a slip of paper, or the box might contain
+Integers representing a random drawing for a lottery based on numeric lottery picks.
+Create an add method that allows the user of the class to add an object of the specified type
+along with an isEmpty method that determines whether or not the box is empty. Finally, your
+class should have a drawItem method that randomly selects an object from the box and
+returns it.
+If the user attempts to drawn an item out of an empty box, return null . Write a main method
+that tests your class.
+Note: Create data of the class yourself as per the requirements of the questions.
+
+Explanation:
+1. Generic Class RandomBox<T>:
+
+T is a type parameter that allows the class to be generic, accepting any type of object.
+_items is a list that holds objects of type T.
+add(T item): Adds an item of type T to _items.
+isEmpty(): Checks if _items is empty.
+drawItem(): Randomly selects and returns an item from _items. If _items is empty, it returns null.
+
+2. Main Function:
+Creates a RandomBox<String> (nameBox) for storing names and demonstrates adding names and drawing them randomly.
+Creates a RandomBox<int> (lotteryBox) for storing lottery numbers and demonstrates adding numbers and drawing them randomly.
+
+
+3. Output:
+Names and lottery numbers are added to their respective boxes.
+Items are drawn randomly from the boxes, demonstrating the random selection functionality.
+This implementation allows flexibility in what type of items can be stored in the RandomBox, making it versatile for various simulation or random drawing scenarios.
+
+
+
+
+
+

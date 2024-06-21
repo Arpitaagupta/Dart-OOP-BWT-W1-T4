@@ -1,0 +1,28 @@
+Ques-1
+
+(The Person, Student, Employee, Faculty, and Staff classes)
+Design a class named Person and its two subclasses named Student and Employee. Make
+Faculty and Staff subclasses of Employee.
+A person has a name, address (Address), phone number, and email address.
+A student has a status(String)
+An employee has an office, salary, and date hired. Use the Date class defined earlier to create
+an object for date hired.
+A faculty member has office hours and a rank.
+A staff member has a title.
+Create display function only in faculty and Staff class only.
+Keep Data members private.
+
+Explanation:
+1. Person Class: This is the base class with private members _name, _address, _phoneNumber, and _emailAddress. It has getters and setters for each of these properties.
+
+2. Student Class: Inherits from Person and adds a private _status property with its getter and setter.
+
+3. Date Class: A simple class to represent a date with day, month, and year.
+
+4. Employee Class: Inherits from Person and adds private _office, _salary, and _dateHired properties with their getters and setters.
+
+5. Faculty Class: Inherits from Employee and adds private _officeHours and _rank properties. It includes a display method to print information.
+
+6. Staff Class: Inherits from Employee and adds a private _title property. It includes a display method to print information.
+
+The main function demonstrates creating instances of Faculty and Staff and displaying their information using the display method.

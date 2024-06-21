@@ -1,0 +1,46 @@
+Ques-3
+Create a class named Movie that can be used with your video rental business.
+The Movie class should have ID Number, movie title and number of days for which
+movie is rented. The class should have appropriate accessor and mutator methods
+and an equals() method that determines whether two movies are equal.
+Next, create three additional classes named Action , Comedy , and
+Drama that are derived from Movie .
+Finally, create an overridden method named calcLateFees that takes as input the
+number of days a movie is late and returns the late fee for that movie.
+Action movies have a late fee of $3/day, comedies are $2.50/day, and dramas are
+$2/day.
+Note: Declare calcLateFees() method as abstract in super class
+Call the calcLateFees method polymorphically in main. Reset Id for Action Movies
+using downcasting.
+Note: Call equals method on objects of Action and comedy objects to verify the
+concept of type compatibility.
+
+Create an abstract class “Person”, with data member “name”. Create set and get
+methods, and an abstract Boolean method “isOutstanding()”.
+Derive two classes Student and Professor. Student class has data member CGPA.
+Professor Class has data member numberOfPublications. Provide setters and
+getters and implementation of abstract function in both classes.
+In student class isOutstanding() will return true if CGPA is greater than 3.5. In the
+Professor class isOutstanding() will return true, if numberOfPublications> 50.
+In the main class create an array of Person class and call isOutstanding() function for
+student and professor. isOutstanding() for professor should be called after setting the
+publication count to 100
+
+Code Explanation:
+1. Movie and Subclasses:
+We created an abstract Movie class with methods to get and set ID, title, and rented days. It has an abstract method calcLateFees and a method equals to check equality.
+The subclasses Action, Comedy, and Drama inherit from Movie and implement the calcLateFees method with different rates.
+We demonstrated polymorphism by calling calcLateFees on different movie types and downcasting by changing the ID of an Action movie.
+
+2.Person and Subclasses:
+We created an abstract Person class with a method isOutstanding.
+The Student class checks if CGPA is greater than 3.5 to determine if outstanding.
+The Professor class checks if the number of publications is greater than 50 to determine if outstanding.
+We created instances of Student and Professor and checked their outstanding status, updating the professor's publications to demonstrate a change in status.
+This setup provides a comprehensive demonstration of object-oriented programming concepts such as inheritance, polymorphism, encapsulation, and abstraction in Dart. ​​
+
+
+
+
+
+

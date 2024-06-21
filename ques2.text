@@ -1,0 +1,59 @@
+Ques-2
+Create an Encapsulated class Student with following:
+Data Members:
+a. String Name
+b. Int [] Result_array[5] // Result array contains the marks for 5 subjects
+Methods:
+a. Default constructor
+b. One- argument constructor (for Name)
+c. two- argument constructor
+d. Average ( ??? ) // it returns the average based on the marks in the array.
+e. CompareAverage(?) //compares Average of two students
+
+
+Explanation:
+Data Members:
+
+_name: A private string to store the student's name.
+_resultArray: A private list to store marks for 5 subjects.
+Constructors:
+
+Default constructor: Initializes _name to an empty string and _resultArray to a list of 5 zeros.
+One-argument constructor: Initializes the student's name.
+Two-argument constructor: Initializes the student's name and result array, ensuring the array has exactly 5 elements.
+Methods:
+
+average(): Calculates and returns the average marks from the _resultArray.
+compareAverage(Student other): Compares the average marks of the current student with another student and returns true if the current student has a higher average, false otherwise.
+Main Function:
+
+Creates instances of Student with their names and marks.
+Prints the average marks of each student.
+Compares the averages and prints which student has a higher average.
+This encapsulated class ensures data integrity by making data members private and providing necessary methods to access and modify them.
+
+
+
+Explanation:
+1. Data Members:
+
+_name: A private string to store the student's name.
+_resultArray: A private list to store marks for 5 subjects.
+Constructors:
+
+2.Default constructor: Initializes _name to an empty string and _resultArray to a list of 5 zeros.
+One-argument constructor: Initializes the student's name.
+Two-argument constructor: Initializes the student's name and result array, ensuring the array has exactly 5 elements.
+
+
+3. Methods:
+average(): Calculates and returns the average marks from the _resultArray.
+compareAverage(Student other): Compares the average marks of the current student with another student and returns true if the current student has a higher average, false otherwise.
+
+4. Main Function:
+Creates instances of Student with their names and marks.
+Prints the average marks of each student.
+Compares the averages and prints which student has a higher average.
+
+
+This encapsulated class ensures data integrity by making data members private and providing necessary methods to access and modify them.

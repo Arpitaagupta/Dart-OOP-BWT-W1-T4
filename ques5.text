@@ -1,0 +1,35 @@
+Ques-5
+
+Create a class Job with following attributes:
+a. Data Members: Designation, Salary, Id
+b. Create constructors and setters and getters for all
+Modify the Employee class and add a Job Object as data member.
+Modify the constructors and display function of Employee class accordingly
+Create a new method in Employee class that checks if Salary of the Employee is greater
+than 50,000.
+
+Explanation:
+1. Job Class:
+Defines attributes designation, salary, and id.
+Provides constructors to initialize these attributes.
+Includes getters and setters to access and modify these attributes.
+
+2. Employee Class:
+Includes attributes _name, _age, and _job (of type Job).
+Constructor initializes _name, _age, and _job.
+Getters and setters provide access to _name, _age, and _job.
+isSalaryGreaterThan50k() checks if the salary of the _job object is greater than 50,000.
+display() function prints employee details including job details.
+
+3. Main Function:
+Creates a Job object (job1) and an Employee object (emp1) with job1.
+Displays emp1 details and checks if salary is greater than 50,000.
+Modifies job1 salary and updates emp1 job details.
+Displays modified emp1 details and checks salary condition again.
+This setup demonstrates the use of classes, constructors, methods, getters, and setters in Dart to model an Employee with a Job, and perform operations such as checking salary conditions. Adjustments can be made as needed to fit specific requirements or additional functionalities.
+
+
+
+
+
+
